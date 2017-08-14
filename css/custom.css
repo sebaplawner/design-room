@@ -1,0 +1,420 @@
+@font-face {
+    font-family: 'Fuente00';
+    src: url('../design-room/images/Tipografias/fonts/00.ttf');
+}
+
+@font-face {
+    font-family: 'Fuente01';
+    src: url('../design-room/images/Tipografias/fonts/01.ttf');
+}
+
+@font-face {
+    font-family: 'Fuente02';
+    src: url('../design-room/images/Tipografias/fonts/02.ttf');
+}
+
+@font-face {
+    font-family: 'Fuente03';
+    src: url('../design-room/images/Tipografias/fonts/03.ttf');
+}
+
+@font-face {
+    font-family: 'Fuente04';
+    src: url('../design-room/images/Tipografias/fonts/04.ttf');
+}
+
+@font-face {
+    font-family: 'Fuente05';
+    src: url('../design-room/images/Tipografias/fonts/05.ttf');
+}
+
+@font-face {
+    font-family: 'Fuente06';
+    src: url('../design-room/images/Tipografias/fonts/06.ttf');
+}
+
+@font-face {
+    font-family: 'Fuente07';
+    src: url('../design-room/images/Tipografias/fonts/07.ttf');
+}
+
+@font-face {
+    font-family: 'Fuente08';
+    src: url('../design-room/images/Tipografias/fonts/08.ttf');
+}
+
+@font-face {
+    font-family: 'Fuente09';
+    src: url('../design-room/images/Tipografias/fonts/09.ttf');
+}
+
+@font-face {
+    font-family: 'Fuente10';
+    src: url('../design-room/images/Tipografias/fonts/10.ttf');
+}
+
+@font-face {
+    font-family: 'Fuente11';
+    src: url('../design-room/images/Tipografias/fonts/11.ttf');
+}
+
+@font-face {
+    font-family: 'Fuente12';
+    src: url('../design-room/images/Tipografias/fonts/12.ttf');
+}
+
+@font-face {
+    font-family: 'Fuente13';
+    src: url('../design-room/images/Tipografias/fonts/13.ttf');
+}
+
+@font-face {
+    font-family: 'Fuente14';
+    src: url('../design-room/images/Tipografias/fonts/14.ttf');
+}
+
+@font-face {
+    font-family: 'Fuente15';
+    src: url('../design-room/images/Tipografias/fonts/15.ttf');
+}
+
+@font-face {
+    font-family: 'Fuente16';
+    src: url('../design-room/images/Tipografias/fonts/16.ttf');
+}
+
+@font-face {
+    font-family: 'Fuente17';
+    src: url('../design-room/images/Tipografias/fonts/17.ttf');
+}
+
+@font-face {
+    font-family: 'Fuente18';
+    src: url('../design-room/images/Tipografias/fonts/18.ttf');
+}
+
+@font-face {
+    font-family: 'Fuente19';
+    src: url('../design-room/images/Tipografias/fonts/19.ttf');
+}
+
+@font-face {
+    font-family: 'Fuente20';
+    src: url('../design-room/images/Tipografias/fonts/20.ttf');
+}
+
+@font-face {
+    font-family: 'Fuente21';
+    src: url('../design-room/images/Tipografias/fonts/21.ttf');
+}
+
+@font-face {
+    font-family: 'Fuente22';
+    src: url('../design-room/images/Tipografias/fonts/22.ttf');
+}
+
+@font-face {
+    font-family: 'Fuente23';
+    src: url('../design-room/images/Tipografias/fonts/23.ttf');
+}
+
+@font-face {
+    font-family: 'Fuente24';
+    src: url('../design-room/images/Tipografias/fonts/24.ttf');
+}
+
+@font-face {
+    font-family: 'Fuente25';
+    src: url('../design-room/images/Tipografias/fonts/25.ttf');
+}
+
+@font-face {
+    font-family: 'Fuente26';
+    src: url('../design-room/images/Tipografias/fonts/26.ttf');
+}
+
+@font-face {
+    font-family: 'Fuente27';
+    src: url('../design-room/images/Tipografias/fonts/27.ttf');
+}
+
+@font-face {
+    font-family: 'Fuente28';
+    src: url('../design-room/images/Tipografias/fonts/28.ttf');
+}
+
+@font-face {
+    font-family: 'Fuente29';
+    src: url('../design-room/images/Tipografias/fonts/29.ttf');
+}
+
+@font-face {
+    font-family: 'Fuente30';
+    src: url('../design-room/images/Tipografias/fonts/30.ttf');
+}
+
+@media (min-width: 768px) {
+	#modalBordado > div > div > div.modal-body > form > div:nth-child(2) > div,
+	#modalBordado > div > div > div.modal-body > form > div:nth-child(1) > div {
+		width: 100%;
+		text-align: center;
+	}
+	#modalBordado > div > div > div.modal-body > form > div:nth-child(1) > div > div.col-xs-12.col-sm-2 {
+		display: inline-block;
+	}
+}
+
+@media (min-width: 768px) {
+	#modalMove > .modal-dialog {
+		margin: 10px;
+	}
+}
+
+#modalLoading {
+	padding-left: 17px;
+}
+
+.design-image > .content > img.img-responsive {
+	width: 75%;
+}
+
+#modalMove > div > div > div.modal-body > form > div > div {
+	width: 100%;
+}
+
+#modalTextura > div > div > div.modal-footer {
+	text-align: center;
+}
+#modalTextura > div > div > div.modal-footer > button {
+	float: none;
+	display: inline;
+}
+
+#modalMove > div > div > div.modal-body > form > div:nth-child(1) > div {
+	margin-bottom: 0;
+}
+
+#moveUp, #moveDown, #moveLeft, #moveRight {
+	width: auto;
+}
+
+#modalMove > div > div > div.modal-body > form > div > div > div {
+    width: initial;
+}
+#modalMove > div > div > div.modal-body > form > div > div {
+	float: none;
+}
+#modalMove > div > div > div.modal-body > form > div {
+	text-align: center;
+}
+
+#modalMove > div {
+    bottom: 0;
+    position: fixed;
+    width: calc(100% - 20px);
+}
+
+#modalMove > div > div > div.modal-header {
+    padding-bottom: 0;
+}
+#modalMove > div > div > div.modal-body {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#modalMove > div > div > div.modal-body > form > div:nth-child(2) > div {
+	margin-bottom: 0;
+}
+#modalMove > div > div > div.modal-body > form > div:nth-child(1) > div > div {
+	margin-bottom: 5px;
+}
+
+#modalBordado > div > div > div.modal-body {
+	max-height: initial;
+}
+
+#fontColor_palette > div > div.box:before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+
+@media (max-width: 767px) {
+	#fontColor_palette > div > div.box:before {
+		padding-top: 12%;
+	}
+}
+
+#modalColor > div > div > div.modal-footer {
+	text-align: center;
+}
+
+#fontColor_palette > div > div.box {
+    position: relative;
+    width: 100%;
+    margin: 10px 0;
+    float: left;
+}
+
+#fontColor_palette > div{
+    padding: 0 5px;
+}
+
+#fontColor_palette > div > div > div.colorBox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+#design-room {
+	padding-right: 0 !important;
+}
+
+#fuente_palette > div.col-xs-12.col-sm-2 {
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+	cursor: pointer;
+}
+
+#modalLoading > div > div > div > div.modal-header {
+    text-align: center;
+}
+#modalLoading > div > div > div > div.modal-header > h4 {
+	margin: 0;
+}
+#modalLoading > div > div > div > div.modal-body {
+	text-align: center;
+}
+#modalLoading > div > div > div > div.modal-body > img {
+	display: inline;
+}
+#modalLoading > .vertical-alignment-helper {
+    display:table;
+    height: 100%;
+    width: 100%;
+    pointer-events:none;
+}
+#modalLoading > div > .vertical-align-center {
+    display: table-cell;
+    vertical-align: middle;
+    pointer-events:none;
+}
+#modalLoading > div > div > .modal-content {
+    width:inherit;
+    height:inherit;
+    margin: 0 auto;
+    pointer-events: all;
+}
+
+.btn-texture {
+    float: left;
+    margin-left: 0px !important;
+    margin-right: 10px !important;
+    margin-bottom: 10px !important;
+    color: #493a36 !important;
+    border-color: #cac4b6 !important;
+    background-color: #f6f6d3 !important;
+}
+
+.btn-texture.active {
+    border-color: #41121a;
+    color: #f6f6d3;
+    background-color: #493a36;
+    cursor: default;
+}
+
+.btn-texture.active:hover {
+	box-shadow: none;
+}
+
+.btn-color {
+    float: none;
+    margin-left: 0px !important;
+    margin-right: 10px !important;
+    margin-bottom: 10px !important;
+    color: #493a36 !important;
+    border-color: #cac4b6 !important;
+    background-color: #f6f6d3 !important;
+}
+
+.btn-color.active {
+    border-color: #41121a;
+    color: #f6f6d3;
+    background-color: #493a36;
+    cursor: default;
+}
+
+.btn-color.active:hover {
+	box-shadow: none;
+}
+
+.modal-content .modal-footer {
+	padding: 15px 20px;
+}
+
+#texture_palette > div > div > div {
+	cursor: pointer;
+}
+
+.modal-content .modal-body {
+	overflow-x: hidden;
+}
+.colorBox {
+	cursor: pointer;
+}
+.colorBox:active {
+  -moz-box-shadow:    0px 0px 0px 3px #000;
+  -webkit-box-shadow: 0px 0px 0px 3px #000;
+  box-shadow:         0px 0px 0px 3px #000;
+}
+.imageBox:active {
+  -moz-box-shadow:    0px 0px 0px 3px #000;
+  -webkit-box-shadow: 0px 0px 0px 3px #000;
+  box-shadow:         0px 0px 0px 3px #000;
+}
+.btn.btn-default.dropdown-toggle {
+  padding-right: 12px;
+  height: 44.5px;
+}
+.btn-group {
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+}
+.btn.btn-default.dropdown-toggle > img {
+  margin-right: 0px;
+  height: 100%;
+}
+.dropdown-toggle, .dropdown-menu {
+  width: 100%;
+}
+.btn-group img {
+  margin-right: 10px;
+}
+.dropdown-toggle {
+  padding-right: 50px;
+}
+.dropdown-toggle .glyphicon {
+  margin-left: 20px;
+  margin-right: -40px;
+}
+.dropdown-menu {
+  margin-bottom: 20px;
+  top: 44.5px!important;
+}
+.dropdown-menu > li {
+  text-align: center;
+  height: 44.5px;
+}
+.dropdown-menu > li > a {
+  height: 100%;
+}
+.dropdown-menu > li > a > img {
+  margin-right: 0px;
+  height: 100%;
+}
+.dropdown-menu > li > a:hover {
+  background: #f1f9fd;
+}
