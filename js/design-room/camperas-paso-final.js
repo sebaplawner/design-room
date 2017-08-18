@@ -1060,9 +1060,9 @@ $(document).ready(function () {
 	}
 
 	$(".btn.btn-design.prev").on("click", function () {
-		if (cuello == "en_v_sin_capucha" || cuello == "rugby_sin_capucha") {
+		if (cuello == "alto_sin_capucha" || cuello == "rugby_sin_capucha") {
 			window.location = 'camperas-paso-05.php?cuello="' + act_cuello + '"&cierre="' + act_cierre + '"&bolsillo="' + act_bolsillo + '"';
-		} else if (cuello == "en_v_con_capucha" || cuello == "rugby_con_capucha") {
+		} else if (cuello == "alto_con_capucha" || cuello == "rugby_con_capucha") {
 			window.location = 'camperas-paso-06.php?cuello="' + act_cuello + '"&cierre="' + act_cierre + '"&bolsillo="' + act_bolsillo + '"&punio_y_cintura="' + act_punio_y_cintura + '"';
 		}
 	});
